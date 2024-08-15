@@ -3,12 +3,6 @@
 <suite name="Failed suite [MovieAppTest]">
   <test thread-count="5" name="test(failed)">
     <classes>
-      <class name="Tests.AccountPageTest">
-        <methods>
-          <include name="setup"/>
-          <include name="testWithLogo"/>
-        </methods>
-      </class> <!-- Tests.AccountPageTest -->
       <class name="Tests.HomePageTest">
         <methods>
           <include name="setup"/>

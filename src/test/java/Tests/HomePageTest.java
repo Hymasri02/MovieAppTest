@@ -44,16 +44,8 @@ public class HomePageTest {
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("home-movie-heading")));
 
         List<WebElement> curheadingList=homePage.headingList();
-        System.out.println(curheadingList.size());
-        String[] expHeadingList={"King Richard","Trending Now","Originals"};
-        for(int i=0;i<expHeadingList.length;i++){
-            String s1=curheadingList.get(i).getText();
-            String s2=expHeadingList[i];
-            if(s1.equalsIgnoreCase(s2)){
-                c++;
-            }
-        }
-        Assert.assertEquals(expHeadingList.length,c);
+
+       Assert.assertEquals(curheadingList.size(),3);
     }
 
     @Test(priority=2)

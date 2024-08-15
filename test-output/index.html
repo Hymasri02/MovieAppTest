@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-MovieAppTest" class="navigator-link">
-              <span class="suite-name border-failed">MovieAppTest</span>
+              <span class="suite-name border-passed">MovieAppTest</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-MovieAppTest" class="navigator-link ">
-                    <span>C:\Users\P C\Downloads\MovieApp\testng.xml</span>
+                    <span>C:\Users\P C\Documents\MovieAppTest\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,26 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">20 methods, 2 failed,   18 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-MovieAppTest" class="hide-methods failed suite-MovieAppTest"> (hide)</a> <!-- hide-methods failed suite-MovieAppTest -->
-                      <a href="#" panel-name="suite-MovieAppTest" class="show-methods failed suite-MovieAppTest"> (show)</a> <!-- show-methods failed suite-MovieAppTest -->
-                    </span>
-                    <div class="method-list-content failed suite-MovieAppTest">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-MovieAppTest" title="Tests.HomePageTest" class="method navigator-link" hash-for-method="testWithHeadings">testWithHeadings</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-MovieAppTest" title="Tests.AccountPageTest" class="method navigator-link" hash-for-method="testWithLogo">testWithLogo</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-MovieAppTest -->
+                    <span class="method-stats">20 methods,   20 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -187,6 +168,11 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MovieAppTest" title="Tests.HomePageTest" class="method navigator-link" hash-for-method="testWithHeadings">testWithHeadings</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-MovieAppTest" title="Tests.SearchPageTest" class="method navigator-link" hash-for-method="testWithInvalidMovieName">testWithInvalidMovieName</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -198,6 +184,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-MovieAppTest" title="Tests.HeaderSectionTest" class="method navigator-link" hash-for-method="testWithLogo">testWithLogo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MovieAppTest" title="Tests.AccountPageTest" class="method navigator-link" hash-for-method="testWithLogo">testWithLogo</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -222,53 +213,28 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-MovieAppTest" class="panel MovieAppTest">
-          <div class="suite-MovieAppTest-class-failed">
+          <div class="suite-MovieAppTest-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">Tests.AccountPageTest</span>
+              <img src="passed.png"/>
+              <span class="class-name">Tests.MovieDetailsPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testWithLogo">
-                  </a> <!-- testWithLogo -->
-                  <span class="method-name">testWithLogo</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.className: website-logo (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: &apos;4.9.1&apos;, revision: &apos;eb2032df7f&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\PCA924~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55357}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55357/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3c37afe46ac7535ffbeee738b2146eca
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
-	at Tests.AccountPageTest.testWithLogo(AccountPageTest.java:40)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-... Removed 26 stack frames
-</div> <!-- stack-trace -->
+                  <a name="checkMovies">
+                  </a> <!-- checkMovies -->
+                  <span class="method-name">checkMovies</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-MovieAppTest-class-failed -->
-          <div class="suite-MovieAppTest-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">Tests.HomePageTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testWithHeadings">
-                  </a> <!-- testWithHeadings -->
-                  <span class="method-name">testWithHeadings</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [2] but found [3]
-	at Tests.HomePageTest.testWithHeadings(HomePageTest.java:56)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-... Removed 33 stack frames
-</div> <!-- stack-trace -->
+                  <a name="homeMoviesTestUIElements">
+                  </a> <!-- homeMoviesTestUIElements -->
+                  <span class="method-name">homeMoviesTestUIElements</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-MovieAppTest-class-failed -->
+          </div> <!-- suite-MovieAppTest-class-passed -->
           <div class="suite-MovieAppTest-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -291,9 +257,31 @@ Session ID: 3c37afe46ac7535ffbeee738b2146eca
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="testWithHeadings">
+                  </a> <!-- testWithHeadings -->
+                  <span class="method-name">testWithHeadings</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="testWithPlayBtn">
                   </a> <!-- testWithPlayBtn -->
                   <span class="method-name">testWithPlayBtn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MovieAppTest-class-passed -->
+          <div class="suite-MovieAppTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Tests.AccountPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWithLogo">
+                  </a> <!-- testWithLogo -->
+                  <span class="method-name">testWithLogo</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -316,21 +304,21 @@ Session ID: 3c37afe46ac7535ffbeee738b2146eca
           <div class="suite-MovieAppTest-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">Tests.MovieDetailsPageTest</span>
+              <span class="class-name">Tests.SearchPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="checkMovies">
-                  </a> <!-- checkMovies -->
-                  <span class="method-name">checkMovies</span>
+                  <a name="testValidName">
+                  </a> <!-- testValidName -->
+                  <span class="method-name">testValidName</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="homeMoviesTestUIElements">
-                  </a> <!-- homeMoviesTestUIElements -->
-                  <span class="method-name">homeMoviesTestUIElements</span>
+                  <a name="testWithInvalidMovieName">
+                  </a> <!-- testWithInvalidMovieName -->
+                  <span class="method-name">testWithInvalidMovieName</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -388,28 +376,6 @@ Session ID: 3c37afe46ac7535ffbeee738b2146eca
           <div class="suite-MovieAppTest-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">Tests.SearchPageTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testValidName">
-                  </a> <!-- testValidName -->
-                  <span class="method-name">testValidName</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testWithInvalidMovieName">
-                  </a> <!-- testWithInvalidMovieName -->
-                  <span class="method-name">testWithInvalidMovieName</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-MovieAppTest-class-passed -->
-          <div class="suite-MovieAppTest-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
               <span class="class-name">Tests.HeaderSectionTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -446,7 +412,7 @@ Session ID: 3c37afe46ac7535ffbeee738b2146eca
         </div> <!-- panel MovieAppTest -->
         <div panel-name="test-xml-MovieAppTest" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\P C\Downloads\MovieApp\testng.xml</span>
+            <span class="header-content">C:\Users\P C\Documents\MovieAppTest\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -503,90 +469,90 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(20);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testWithLogo')
-data.setCell(0, 2, 'Tests.AccountPageTest')
-data.setCell(0, 3, 10613);
+data.setCell(0, 1, 'checkMovies')
+data.setCell(0, 2, 'Tests.PopularPageTest')
+data.setCell(0, 3, 2820);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'checkMovies')
+data.setCell(1, 1, 'homeMoviesTestUIElements')
 data.setCell(1, 2, 'Tests.MovieDetailsPageTest')
-data.setCell(1, 3, 3295);
+data.setCell(1, 3, 2618);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'checkMovies')
-data.setCell(2, 2, 'Tests.PopularPageTest')
-data.setCell(2, 3, 2803);
+data.setCell(2, 2, 'Tests.MovieDetailsPageTest')
+data.setCell(2, 3, 2564);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'homeMoviesTestUIElements')
-data.setCell(3, 2, 'Tests.MovieDetailsPageTest')
-data.setCell(3, 3, 2347);
+data.setCell(3, 1, 'testValidName')
+data.setCell(3, 2, 'Tests.SearchPageTest')
+data.setCell(3, 3, 1763);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'testValidName')
+data.setCell(4, 1, 'testWithInvalidMovieName')
 data.setCell(4, 2, 'Tests.SearchPageTest')
-data.setCell(4, 3, 2333);
+data.setCell(4, 3, 1733);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'testWithInvalidMovieName')
-data.setCell(5, 2, 'Tests.SearchPageTest')
-data.setCell(5, 3, 2181);
+data.setCell(5, 1, 'testWithLogo')
+data.setCell(5, 2, 'Tests.AccountPageTest')
+data.setCell(5, 3, 1631);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'testWithPlayBtn')
-data.setCell(6, 2, 'Tests.HomePageTest')
-data.setCell(6, 3, 1607);
+data.setCell(6, 1, 'testWithNavElements')
+data.setCell(6, 2, 'Tests.HeaderSectionTest')
+data.setCell(6, 3, 1568);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'LoginEmptyInputs')
-data.setCell(7, 2, 'Tests.LoginPageTest')
-data.setCell(7, 3, 1392);
+data.setCell(7, 1, 'testWithPlayBtn')
+data.setCell(7, 2, 'Tests.HomePageTest')
+data.setCell(7, 3, 1419);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'testAccountPage')
 data.setCell(8, 2, 'Tests.HeaderSectionTest')
-data.setCell(8, 3, 1131);
+data.setCell(8, 3, 1148);
 data.setCell(9, 0, 9)
 data.setCell(9, 1, 'navigateToHomeAndPopular')
 data.setCell(9, 2, 'Tests.HeaderSectionTest')
-data.setCell(9, 3, 1052);
+data.setCell(9, 3, 1045);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'testWithHeadings')
-data.setCell(10, 2, 'Tests.HomePageTest')
-data.setCell(10, 3, 1022);
+data.setCell(10, 1, 'testWithLogo')
+data.setCell(10, 2, 'Tests.HeaderSectionTest')
+data.setCell(10, 3, 1003);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'testWithNavElements')
-data.setCell(11, 2, 'Tests.HeaderSectionTest')
-data.setCell(11, 3, 1017);
+data.setCell(11, 1, 'testWithContactUs')
+data.setCell(11, 2, 'Tests.HomePageTest')
+data.setCell(11, 3, 984);
 data.setCell(12, 0, 12)
 data.setCell(12, 1, 'loginWithInvalidInputs')
 data.setCell(12, 2, 'Tests.LoginPageTest')
-data.setCell(12, 3, 977);
+data.setCell(12, 3, 966);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'testWithLogo')
-data.setCell(13, 2, 'Tests.HeaderSectionTest')
-data.setCell(13, 3, 960);
+data.setCell(13, 1, 'testWithHeadings')
+data.setCell(13, 2, 'Tests.HomePageTest')
+data.setCell(13, 3, 911);
 data.setCell(14, 0, 14)
 data.setCell(14, 1, 'testMoviesDisplay')
 data.setCell(14, 2, 'Tests.HomePageTest')
-data.setCell(14, 3, 943);
+data.setCell(14, 3, 907);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'testWithContactUs')
-data.setCell(15, 2, 'Tests.HomePageTest')
-data.setCell(15, 3, 908);
+data.setCell(15, 1, 'LoginEmptyInputs')
+data.setCell(15, 2, 'Tests.LoginPageTest')
+data.setCell(15, 3, 890);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'loginWithEmptyUsername')
+data.setCell(16, 1, 'loginWithValidInputs')
 data.setCell(16, 2, 'Tests.LoginPageTest')
-data.setCell(16, 3, 806);
+data.setCell(16, 3, 842);
 data.setCell(17, 0, 17)
 data.setCell(17, 1, 'loginWithEmptyPassword')
 data.setCell(17, 2, 'Tests.LoginPageTest')
-data.setCell(17, 3, 806);
+data.setCell(17, 3, 823);
 data.setCell(18, 0, 18)
-data.setCell(18, 1, 'loginWithValidInputs')
+data.setCell(18, 1, 'loginWithEmptyUsername')
 data.setCell(18, 2, 'Tests.LoginPageTest')
-data.setCell(18, 3, 788);
+data.setCell(18, 3, 804);
 data.setCell(19, 0, 19)
 data.setCell(19, 1, 'testWithLoginUI')
 data.setCell(19, 2, 'Tests.LoginPageTest')
-data.setCell(19, 3, 276);
+data.setCell(19, 3, 200);
 window.suiteTableData['MovieAppTest']= { tableData: data, tableDiv: 'times-div-MovieAppTest'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 37 seconds</span>
+              <span class="suite-total-time">Total running time: 26 seconds</span>
               <div id="times-div-MovieAppTest">
               </div> <!-- times-div-MovieAppTest -->
             </div> <!-- times-div -->
@@ -619,258 +585,258 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testWithLoginUI</span>
-                <span class="method-start">3732 ms</span>
+                <span class="method-start">3578 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">4014 ms</span>
+                <span class="method-start">3778 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">4191 ms</span>
+                <span class="method-start">3910 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">LoginEmptyInputs</span>
-                <span class="method-start">8169 ms</span>
+                <span class="method-start">5996 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">9561 ms</span>
+                <span class="method-start">6886 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">9675 ms</span>
+                <span class="method-start">7003 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">loginWithEmptyUsername</span>
-                <span class="method-start">11902 ms</span>
+                <span class="method-start">8995 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">12710 ms</span>
+                <span class="method-start">9799 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">12822 ms</span>
+                <span class="method-start">9900 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">loginWithEmptyPassword</span>
-                <span class="method-start">14839 ms</span>
+                <span class="method-start">11815 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">15645 ms</span>
+                <span class="method-start">12639 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">15759 ms</span>
+                <span class="method-start">12752 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">loginWithInvalidInputs</span>
-                <span class="method-start">17843 ms</span>
+                <span class="method-start">14713 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">18820 ms</span>
+                <span class="method-start">15679 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">18959 ms</span>
+                <span class="method-start">15792 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">loginWithValidInputs</span>
-                <span class="method-start">21236 ms</span>
+                <span class="method-start">17827 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">22024 ms</span>
+                <span class="method-start">18670 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Tests.HomePageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">22112 ms</span>
+                <span class="method-start">18780 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">testWithHeadings</span>
-                <span class="method-start">24075 ms</span>
+                <span class="method-start">20844 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">25389 ms</span>
+                <span class="method-start">21759 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">25564 ms</span>
+                <span class="method-start">21814 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testWithPlayBtn</span>
-                <span class="method-start">27644 ms</span>
+                <span class="method-start">23732 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">29251 ms</span>
+                <span class="method-start">25151 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">29385 ms</span>
+                <span class="method-start">25266 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testMoviesDisplay</span>
-                <span class="method-start">31362 ms</span>
+                <span class="method-start">27434 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">32305 ms</span>
+                <span class="method-start">28341 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">32406 ms</span>
+                <span class="method-start">28447 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testWithContactUs</span>
-                <span class="method-start">34348 ms</span>
+                <span class="method-start">30373 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">35261 ms</span>
+                <span class="method-start">31357 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Tests.HeaderSectionTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">35405 ms</span>
+                <span class="method-start">31432 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testWithLogo</span>
-                <span class="method-start">37437 ms</span>
+                <span class="method-start">33430 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">38397 ms</span>
+                <span class="method-start">34433 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">38496 ms</span>
+                <span class="method-start">34503 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testWithNavElements</span>
-                <span class="method-start">40539 ms</span>
+                <span class="method-start">36416 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">41564 ms</span>
+                <span class="method-start">37985 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">41692 ms</span>
+                <span class="method-start">38119 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">navigateToHomeAndPopular</span>
-                <span class="method-start">43843 ms</span>
+                <span class="method-start">40466 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">44895 ms</span>
+                <span class="method-start">41511 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">45010 ms</span>
+                <span class="method-start">41623 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testAccountPage</span>
-                <span class="method-start">47267 ms</span>
+                <span class="method-start">43634 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">48399 ms</span>
+                <span class="method-start">44782 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Tests.MovieDetailsPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">48492 ms</span>
+                <span class="method-start">44892 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">homeMoviesTestUIElements</span>
-                <span class="method-start">50637 ms</span>
+                <span class="method-start">46934 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">52984 ms</span>
+                <span class="method-start">49555 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">53061 ms</span>
+                <span class="method-start">49705 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">checkMovies</span>
-                <span class="method-start">55399 ms</span>
+                <span class="method-start">51870 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">58694 ms</span>
+                <span class="method-start">54436 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Tests.PopularPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">58820 ms</span>
+                <span class="method-start">54580 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">checkMovies</span>
-                <span class="method-start">61041 ms</span>
+                <span class="method-start">56697 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">63844 ms</span>
+                <span class="method-start">59517 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Tests.SearchPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">63959 ms</span>
+                <span class="method-start">59764 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testValidName</span>
-                <span class="method-start">66830 ms</span>
+                <span class="method-start">61815 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">69164 ms</span>
+                <span class="method-start">63578 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">69291 ms</span>
+                <span class="method-start">63686 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testWithInvalidMovieName</span>
-                <span class="method-start">71536 ms</span>
+                <span class="method-start">65762 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">73717 ms</span>
+                <span class="method-start">67495 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Tests.AccountPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">73854 ms</span>
+                <span class="method-start">67607 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">testWithLogo</span>
-                <span class="method-start">75979 ms</span>
+                <span class="method-start">69588 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">71221 ms</span>
+              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

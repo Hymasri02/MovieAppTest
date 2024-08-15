@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="49152db7-d43b-492b-b068-ee87e43b758a" name="Default Changelist" comment="" />
+    <list default="true" id="49152db7-d43b-492b-b068-ee87e43b758a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/testWithHeadings.png" beforeDir="false" afterPath="$PROJECT_DIR$/report/testWithHeadings.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/AccountPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/AccountPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/HomePageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/AccountPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests/AccountPageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/HomePageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests/HomePageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/MovieAppTest/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/MovieAppTest/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/MovieAppTest/test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/MovieAppTest/test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/MovieAppTest/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/MovieAppTest/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-Tests.AccountPageTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-Tests.AccountPageTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-Tests.HeaderSectionTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-Tests.HeaderSectionTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-Tests.HomePageTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-Tests.HomePageTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-Tests.LoginPageTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-Tests.LoginPageTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-Tests.MovieDetailsPageTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-Tests.MovieDetailsPageTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-Tests.PopularPageTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-Tests.PopularPageTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-Tests.SearchPageTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-Tests.SearchPageTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/MovieAppTest/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/MovieAppTest/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/MovieAppTest/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/MovieAppTest/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/MovieAppTest/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/MovieAppTest/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/MovieAppTest/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/MovieAppTest/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,14 +58,13 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/BaseData/Listener.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="197">
-              <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#478#490#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -66,21 +94,30 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Tests/AccountPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="43" column="75" selection-start-line="43" selection-start-column="75" selection-end-line="43" selection-end-column="75" />
+            <state relative-caret-position="290">
+              <caret line="49" column="23" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1684#1685#0" expanded="true" />
+                <element signature="e#1713#1714#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/report/testWithLogo.png">
-          <provider selected="true" editor-type-id="images" />
+        <entry file="file://$PROJECT_DIR$/src/test/java/Tests/HomePageTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-373">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -101,6 +138,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -117,13 +157,13 @@
         <option value="$PROJECT_DIR$/src/test/java/Tests/PopularPageTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/Tests/SearchPageTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/Tests/LoginPageTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Tests/HomePageTest.java" />
         <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/src/test/java/BaseData/ExtentReport.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/BaseData/BaseClass.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Tests/AccountPageTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/BaseData/Listener.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Tests/HomePageTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Tests/AccountPageTest.java" />
       </list>
     </option>
   </component>
@@ -145,11 +185,12 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="3" />
     <option name="width" value="1890" />
     <option name="height" value="948" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -160,52 +201,39 @@
         <subPane>
           <expand>
             <path>
-              <item name="MovieApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MovieApp" type="462c0819:PsiDirectoryNode" />
+              <item name="MovieAppTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MovieAppTest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MovieApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MovieApp" type="462c0819:PsiDirectoryNode" />
+              <item name="MovieAppTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MovieAppTest" type="462c0819:PsiDirectoryNode" />
               <item name="report" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MovieApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MovieApp" type="462c0819:PsiDirectoryNode" />
+              <item name="MovieAppTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MovieAppTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MovieApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MovieApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MovieApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MovieApp" type="462c0819:PsiDirectoryNode" />
+              <item name="MovieAppTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MovieAppTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MovieApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MovieApp" type="462c0819:PsiDirectoryNode" />
+              <item name="MovieAppTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MovieAppTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="BaseData" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MovieApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MovieApp" type="462c0819:PsiDirectoryNode" />
+              <item name="MovieAppTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MovieAppTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MovieApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MovieApp" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -215,7 +243,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1723555010838" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1723732252099" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -314,8 +343,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MovieDetailsPageTest.checkMovies" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MoviesAppTest" />
+    <configuration name="HomePageTest.testWithPlayBtn" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="movie-app" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Tests.*" />
@@ -323,8 +352,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.MovieDetailsPageTest" />
-      <option name="METHOD_NAME" value="checkMovies" />
+      <option name="MAIN_CLASS_NAME" value="Tests.HomePageTest" />
+      <option name="METHOD_NAME" value="testWithPlayBtn" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -337,15 +366,15 @@
       <item itemvalue="TestNG.AccountPageTest.testWithLogo" />
       <item itemvalue="TestNG.C:/Users/P C/Downloads/MovieApp/testng.xml" />
       <item itemvalue="TestNG.HomePageTest.testWithHeadings" />
-      <item itemvalue="TestNG.MovieDetailsPageTest.checkMovies" />
+      <item itemvalue="TestNG.HomePageTest.testWithPlayBtn" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/Users/P C/Downloads/MovieApp/testng.xml" />
         <item itemvalue="TestNG.HomePageTest.testWithHeadings" />
+        <item itemvalue="TestNG.HomePageTest.testWithPlayBtn" />
         <item itemvalue="TestNG.AccountPageTest" />
         <item itemvalue="TestNG.AccountPageTest.testWithLogo" />
-        <item itemvalue="TestNG.MovieDetailsPageTest.checkMovies" />
       </list>
     </recent_temporary>
   </component>
@@ -363,21 +392,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HomePageTest_testWithHeadings - 2024.08.13 at 11h 57m 18s.xml">
-      <configuration name="HomePageTest.testWithHeadings" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_P_C_Downloads_MovieApp_testng_xml - 2024.08.13 at 12h 21m 09s.xml">
-      <configuration name="C:/Users/P C/Downloads/MovieApp/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_P_C_Downloads_MovieApp_testng_xml - 2024.08.13 at 12h 23m 40s.xml">
-      <configuration name="C:/Users/P C/Downloads/MovieApp/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_P_C_Downloads_MovieApp_testng_xml - 2024.08.13 at 12h 49m 15s.xml">
-      <configuration name="C:/Users/P C/Downloads/MovieApp/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_P_C_Downloads_MovieApp_testng_xml - 2024.08.13 at 12h 55m 33s.xml">
-      <configuration name="C:/Users/P C/Downloads/MovieApp/testng.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="C__Users_P_C_Downloads_MovieApp_testng_xml - 2024.08.13 at 12h 58m 47s.xml">
       <configuration name="C:/Users/P C/Downloads/MovieApp/testng.xml" configurationId="TestNG" />
     </history-entry>
@@ -393,16 +407,32 @@
     <history-entry file="C__Users_P_C_Downloads_MovieApp_testng_xml - 2024.08.13 at 14h 53m 09s.xml">
       <configuration name="C:/Users/P C/Downloads/MovieApp/testng.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="C__Users_P_C_Downloads_MovieApp_testng_xml - 2024.08.15 at 19h 31m 06s.xml">
+      <configuration name="C:/Users/P C/Downloads/MovieApp/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomePageTest_testWithHeadings - 2024.08.15 at 19h 32m 13s.xml">
+      <configuration name="HomePageTest.testWithHeadings" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomePageTest_testWithPlayBtn - 2024.08.15 at 19h 54m 43s.xml">
+      <configuration name="HomePageTest.testWithPlayBtn" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomePageTest_testWithHeadings - 2024.08.15 at 19h 55m 17s.xml">
+      <configuration name="HomePageTest.testWithHeadings" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_P_C_Downloads_MovieApp_testng_xml - 2024.08.15 at 19h 56m 52s.xml">
+      <configuration name="C:/Users/P C/Downloads/MovieApp/testng.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="687" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.2534413" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.2574899" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32972974" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32972974" />
@@ -410,7 +440,7 @@
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.32972974" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.32972974" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -509,18 +539,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Tests/HomePageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="50" column="29" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3016#3017#0" expanded="true" />
-            <element signature="e#3046#3047#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Tests/LoginPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
@@ -605,20 +623,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Tests/AccountPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="43" column="75" selection-start-line="43" selection-start-column="75" selection-end-line="43" selection-end-column="75" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
           <caret line="45" column="32" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/BaseData/Listener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -628,13 +646,24 @@
     <entry file="file://$PROJECT_DIR$/report/testWithLogo.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BaseData/Listener.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Tests/HomePageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        <state relative-caret-position="-373">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#478#490#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Tests/AccountPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="49" column="23" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1684#1685#0" expanded="true" />
+            <element signature="e#1713#1714#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
@@ -35,7 +36,7 @@ public class AccountPageTest {
     }
     @Test(priority=1)
     public void testWithLogo(){
-        loginPage.login("rahul","rahul@202");
+        loginPage.login("rahul","rahul@2021");
         loginPage.loginClick().submit();
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("website-logo")));
         homePage.accountLink().click();
@@ -43,5 +44,9 @@ public class AccountPageTest {
         String expectedAccountsHeading="Account";
         Assert.assertEquals(currentAccountHeading,expectedAccountsHeading);
         accountsPage.logout();
+    }
+    @AfterMethod
+    public void tearDown(){
+        driver.close();
     }
 }

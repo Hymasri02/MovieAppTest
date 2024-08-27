@@ -35,7 +35,7 @@ public class LoginPageTest {
         Assert.assertTrue(loginPage.isLogoDisplayed().isDisplayed());
 
         //Test whether the Heading text is "Login"
-        String expectedHeadingText="Login";
+        String expectedHeadingText="Login1";
         String actualHeadingText=loginPage.testWithHeading();
         Assert.assertEquals(expectedHeadingText,actualHeadingText);
 
